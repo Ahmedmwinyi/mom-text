@@ -53,9 +53,11 @@ export default function LoginPage() {
                 Remember me
               </Label>
             </div>
-            <Button className="w-full" type="submit">
-              Sign In
-            </Button>
+            <Link href="/dashboard">
+              <Button className="w-full" type="submit">
+                Sign In
+              </Button>
+            </Link>
             <div className="text-center text-sm">
               Don&apos;t have an account?{" "}
               <Link href="/signup" className="text-pink-500 hover:underline">
